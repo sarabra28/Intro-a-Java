@@ -1,3 +1,4 @@
+package clase6FOr;
 
 public class InvertirFor {
     public static void main(String[] args) {
