@@ -1,3 +1,5 @@
+package clase7WHile;
+
 /* */
 
 import java.util.Scanner;
@@ -16,5 +18,6 @@ cont++;
 }
 System.out.println("----------------------------");
 } while (num!=0);
+scanner.close();
 }
 }

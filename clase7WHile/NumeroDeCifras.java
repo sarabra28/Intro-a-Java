@@ -1,6 +1,6 @@
 package clase7WHile;
 
-public public class NumeroDeCifras {
+public class NumeroDeCifras {
     public static void main(String[] args) {
     int num = -123, contDigitos = 0;
     
@@ -15,6 +15,6 @@ public public class NumeroDeCifras {
     }
     System.out.println(contDigitos);
     }
-    } {
+    
     
 }
