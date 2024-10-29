@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class CopiandoArreglos {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner scan  = new Scanner(System.in);
         System.out.println("Ingrese de qué tamaño desea el arreglo inicial:");
         int a = scan.nextInt();
@@ -23,6 +24,7 @@ public class CopiandoArreglos {
         indice1= scan.nextInt();
         System.out.println("Ingrese hasta qué indice quiere copiar:");
         indice2 = scan.nextInt();
+        scan.close();
     } while (indice2 < indice1 || indice1 < 0 || indice1 >= arreglo1.length || indice2 < 0 || indice2 >= arreglo1.length);
         arreglo2=Arrays.copyOfRange(arreglo1, indice1, indice2+1);
 
@@ -32,7 +34,7 @@ public class CopiandoArreglos {
                 System.out.println(arreglo2[i] + "|" + b);
             }
             
-            scan.close();
         }
         
-}
+    }
+    
