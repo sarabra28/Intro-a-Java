@@ -1,3 +1,4 @@
+package clasepoo;
 public class esPrimo {
         public static void main(String[] args) {
         // System.out.println( esPrimo(4) );

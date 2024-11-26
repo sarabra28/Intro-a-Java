@@ -1,8 +1,8 @@
-package clase12Integra;
+/*package clase12Integra;
 
 import java.util.Scanner;
 
-/*Escribe un programa en Java que permita al usuario realizar diversas operaciones con una oración. El programa debe cumplir con los siguientes requisitos:
+Escribe un programa en Java que permita al usuario realizar diversas operaciones con una oración. El programa debe cumplir con los siguientes requisitos:
 -Muestra un menú de opciones al usuario donde podrá:
 -Crear oración o Borrar oración: Si la oración está vacía, mostrar el mensaje "Crear oración". Si la oración tiene contenido, mostrar el mensaje "Borrar oración".
 -Cantidad de caracteres de la oración: Calcular y mostrar la cantidad total de caracteres en la oración (incluyendo espacios).
@@ -14,7 +14,7 @@ import java.util.Scanner;
 -Agregar contenido a la oración: Solicitar al usuario ingresar contenido y agregar ese contenido al final de la oración.
 -Salir: Terminar el programa.
 
-Después de realizar una operación, mostrar el menú de opciones nuevamente para que el usuario pueda elegir otra acción, excepto cuando elija "Salir". */
+Después de realizar una operación, mostrar el menú de opciones nuevamente para que el usuario pueda elegir otra acción, excepto cuando elija "Salir". 
 public class MenuOraciones {
     public static void main(String[] args) {
         private static String oracio = ""; // Variable para almacenar la oración
@@ -103,3 +103,4 @@ public class MenuOraciones {
 
     }
 }
+*/
